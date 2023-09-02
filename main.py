@@ -19,10 +19,6 @@ import pickle
 app = FastAPI()
 model_id = 'google/flan-t5-large'
 
-#check the output of the csv
-#verify if they are emmdeddings
-#make the emmbeddings
-#if so load the model
 qa = None
 
 def initiate_vars():
